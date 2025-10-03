@@ -1,0 +1,13 @@
+server:
+  port: 8090
+spring:
+  application:
+    name: SWAGGER-AGGREGATOR
+
+springdoc:
+  swagger-ui:
+    urls:
+      - name: Product Microsrvices
+        url: http://localhost:8083/productmicroservice/v3/api-docs
+      - name: Order Microservice
+        url: http://localhost:8090/ordersmicroservice/v3/api-docs

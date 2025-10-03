@@ -1,0 +1,5 @@
+urls:
+  - name: Product Microservice
+    url: http://localhost:8082/productmicroservice/v3/api-docs
+  - name: Order Microservices
+    url: http://localhost:8090/ordersmicroservice/v3/api-doc
